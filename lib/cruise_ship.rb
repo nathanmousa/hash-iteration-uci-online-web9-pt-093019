@@ -7,5 +7,6 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  hash.each do |suite, passenger|
+    puts "#{suite}: #{passenger}"
 end
