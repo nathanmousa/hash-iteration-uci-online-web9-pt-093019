@@ -9,4 +9,5 @@
 def select_winner(passengers)
   hash.each do |suite, passenger|
     puts "#{suite}: #{passenger}"
+  end
 end
